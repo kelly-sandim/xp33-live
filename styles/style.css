@@ -56,7 +56,6 @@ div.texto-sobre {
 
 
 .section1 {
-    background-size: cover;
     background-image: url("../assets/desktop/header1.png");
     background-color: #24c7b1;
 }
@@ -102,12 +101,12 @@ div.texto-sobre {
     padding-bottom: 20px;
 }
 
-.section3-image {    
+.section3-image {
     padding-top: 40px;
     padding-bottom: 40px;
     background-image: url('../assets/mobile/Sobre-ELEMENTOS\ 1.png');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: contain;
+    background-repeat: repeat-y;
 }
 
 
@@ -124,14 +123,14 @@ img.icon-naosurta {
     background-color: #356E72;
     text-align: center;
 }
-    
+
 .btSocialMedia{
     padding-left: 15px;
     padding-right: 15px;
 }
 
 @media (min-width: 768px) {
-    
+
     div.texto-sobre {
         margin-left: 0px;
     }
@@ -148,14 +147,14 @@ img.icon-naosurta {
         padding-bottom: 60px;
     }
 
-    .section3-image {    
+    .section3-image {
         padding-top: 90px;
         padding-bottom: 90px;
         background-image: url('../assets/desktop/ELEMENTOS\ 1.png');
         background-size: contain;
         background-repeat: no-repeat;
     }
-    
+
     img.icon-naosurta {
         display: block;
         margin-left: auto;
@@ -163,12 +162,13 @@ img.icon-naosurta {
         width: 65%;
         border-radius: 50%;
     }
-    
+
 }
 
 /* -------------------------------- VERSÃO MOBILE ---------------------------------*/
 
-@media screen and (max-width: 7684px) {
+
+@media screen and (max-width: 768px) {
     img.imgButton{
         width: 40px;
         height: 40px;
@@ -214,6 +214,7 @@ img.icon-naosurta {
     padding: 6%;
     text-align: center;
     color: #24c7b1;
+
 }
 .exit{
     position: absolute;
