@@ -1,149 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="https://gama.academy/icons/icon-48x48.png?v=757c95a04621d0c77f2dc80aebdf92e8" />
-    <title>Bootstrap 4, from LayoutIt!</title>
-    <meta name="description" content="Coletivo Não Surta!">
-	  <meta name="author" content="Coletivo Não Surta!">
 
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="https://gama.academy/icons/icon-48x48.png?v=757c95a04621d0c77f2dc80aebdf92e8" />
+  <title>Bootstrap 4, from LayoutIt!</title>
+  <meta name="description" content="Coletivo Não Surta!">
+  <meta name="author" content="Coletivo Não Surta!">
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
 
-    <!-- testing some fonts here -->
-    <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Teko&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Rancho&display=swap" rel="stylesheet">
-    <link href="styles/style.css" rel="stylesheet">
-	</head>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-	<body>
-    <!-- Primeira seção, navbar + banner + call to action -->
-    <div class="section section1"  id="capa">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+  <!-- testing some fonts here -->
+  <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Teko&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rancho&display=swap" rel="stylesheet">
+  <link href="styles/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Primeira seção, navbar + banner + call to action -->
+  <div class="section section1" id="capa">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><img src="images/logo-coletivo.png" alt="Coletivo Não Surta" style="max-height: 100px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#countdownAndPeople">Convidados</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#aboutUs">Sobre</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#groupPhotos">Nós Somos o Coletivo</a>
-          </li>
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" style="padding-right: 30px;" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="padding-right: 30px;" href="#countdownAndPeople">Convidados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="padding-right: 30px;" href="#aboutUs">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="padding-right: 30px;" href="#groupPhotos">Nós Somos o Coletivo</a>
+            </li>
           </ul>
         </div>
-        </nav>
-        <a class="btn btn-danger btn-large" href="#">Adquirir ingresso!</a>
+      </nav>
+
+      <div class="row">
+        <div class="col">
+          <h1 class="section1-title"><b>Pandemia VS<br> Saúde Mental</b></h1>
+          <p class="section1-description"><b>Precisamos de um texto para essa chamada</b></p>
+          <a class="btn btn-primary btn-large section1-cta" href="#"><b>Não perca</b></a>
+        </div>
+      </div>
     </div>
-    <!-- Primeira seção, navbar + banner + call to action -->
 
-    <!-- Segunda seção, counter + convidados -->
-    <div class="section section2">
-      <div id="countdownAndPeople" class="column col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-					<div id="countdown"></div>
-				</div>
-				<div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-					<h2 class="h2-convidados mt-5 mb-5 column col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">Convidados</h2>
-					<div class="column col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-						<img class="foto-convidado" alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg">
-						<h3 class="h3-convidado">
-							Fulano
-						</h3>
-						<h4 class="h4-profissao">Astróloga</h4>
-					</div>
-					<div class="column col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-						<img class="foto-convidado" alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg">
-						<h3 class="h3-convidado">
-							Fulano
-						</h3>
-						<h4 class="h4-profissao">Psicóloga</h4>
-					</div>
-				</div>
-			</div>
+  </div>
+  <!-- Primeira seção, navbar + banner + call to action -->
+
+  <!-- Segunda seção, counter + convidados -->
+  <div class="section section2">
+    <div id="countdownAndPeople" class="column col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div id="countdown"></div>
+      </div>
+      <div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <h2 class="h2-convidados mt-5 mb-5 column col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">Convidados</h2>
+        <div class="column col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <img class="foto-convidado" alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg">
+          <h3 class="h3-convidado">
+            Fulano
+          </h3>
+          <h4 class="h4-profissao">Astróloga</h4>
+        </div>
+        <div class="column col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <img class="foto-convidado" alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg">
+          <h3 class="h3-convidado">
+            Fulano
+          </h3>
+          <h4 class="h4-profissao">Psicóloga</h4>
+        </div>
+      </div>
     </div>
-    <!-- Segunda seção, counter + convidados -->
+  </div>
+  <!-- Segunda seção, counter + convidados -->
 
-    <!-- Terceira seção, sobre o coletivo -->
-    <div class="section section3">
-      <div id="aboutUs" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-				<div class="column col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">&nbsp;</div>
-				<div class="column col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-					<h2 class="h2-sobre">
-						Sobre o Coletivo
-					</h2>
-					<p class="p-sobre">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit faucibus
-						dignissim. Fusce magna ex, maximus id consequat ut, tristique eget libero. Fusce
-						porta venenatis enim, vitae bibendum mi posuere id. Nunc vitae lectus ultrices,
-						blandit elit ut, vulputate nunc. Aenean eu dui nisi. Integer pellentesque sed erat
-						non sodales. Sed quis porttitor justo, eget dignissim elit. Quisque sollicitudin,
-						augue et interdum sagittis, sem lorem interdum elit, ut accumsan purus magna eget
-						orci. Aenean mauris nisl, consectetur egestas dui ut, dictum fermentum ante.
-						Suspendisse finibus ante eu dolor iaculis vehicula. Pellentesque habitant morbi
-						tristique senectus et netus et malesuada fames.</p>
-				</div>
-			</div>
+  <!-- Terceira seção, sobre o coletivo -->
+  <div class="section section3">
+    <div id="aboutUs" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+      <div class="column col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">&nbsp;</div>
+      <div class="column col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <h2 class="h2-sobre">
+          Sobre o Coletivo
+        </h2>
+        <p class="p-sobre">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit faucibus
+          dignissim. Fusce magna ex, maximus id consequat ut, tristique eget libero. Fusce
+          porta venenatis enim, vitae bibendum mi posuere id. Nunc vitae lectus ultrices,
+          blandit elit ut, vulputate nunc. Aenean eu dui nisi. Integer pellentesque sed erat
+          non sodales. Sed quis porttitor justo, eget dignissim elit. Quisque sollicitudin,
+          augue et interdum sagittis, sem lorem interdum elit, ut accumsan purus magna eget
+          orci. Aenean mauris nisl, consectetur egestas dui ut, dictum fermentum ante.
+          Suspendisse finibus ante eu dolor iaculis vehicula. Pellentesque habitant morbi
+          tristique senectus et netus et malesuada fames.</p>
+      </div>
     </div>
-    <!-- Terceira seção, sobre o coletivo -->
+  </div>
+  <!-- Terceira seção, sobre o coletivo -->
 
-    <!-- Quarta seção, fotos de todos -->
-    <div class="section section4">
-      <div id="groupPhotos" class="column col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-				<div class="column col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-					<h2 class="h2-fotos">
-						Nós somos o Coletivo
-					</h2>
-					<p class="p-fotos">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  <!-- Quarta seção, fotos de todos -->
+  <div class="section section4">
+    <div id="groupPhotos" class="column col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+      <div class="column col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <h2 class="h2-fotos">
+          Nós somos o Coletivo
+        </h2>
+        <p class="p-fotos">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-				</div>
-			</div>
+      </div>
     </div>
-    <!-- Quarta seção, fotos de todos -->
+  </div>
+  <!-- Quarta seção, fotos de todos -->
 
-    <!-- Quinta seção, redes sociais -->
-    <div class="section section5">
-social networks
+  <!-- Quinta seção, redes sociais -->
+  <div class="section section5">
+    social networks
+  </div>
+  <!-- Quinta seção, redes sociais -->
+
+  <div class="container">
+
+
+    <div id="popup" class="popup__wrapper">
+      <div class="popup__container">
+        <button class="exit" onclick=exitPopUp()>X</button>
+        <h1 class="popup__title">Thank you for visiting!</h1>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut dui purus.
+          In tellus elit, congue non orci nec, pharetra semper libero. Integer vitae lobortis sem.
+          Aliquam id ante neque. Integer et mauris quis elit elementum venenatis.
+          Sed vehicula nisl quis lobortis mollis. Integer vitae semper nunc. Nulla et arcu sapien.
+        </p>
+      </div>
     </div>
-    <!-- Quinta seção, redes sociais -->
 
-		<div class="container">
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+  <!-- scripts para a janela pop-up funcionar -->
+  <script src="./scripts/exitpopup.js"></script>
 
-			<div id="popup" class="popup__wrapper">
-				<div class="popup__container">
-				  <button class="exit" onclick=exitPopUp()>X</button>
-				  <h1 class="popup__title">Thank you for visiting!</h1>
-				  	<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut dui purus.
-					  In tellus elit, congue non orci nec, pharetra semper libero. Integer vitae lobortis sem.
-					  Aliquam id ante neque. Integer et mauris quis elit elementum venenatis.
-					  Sed vehicula nisl quis lobortis mollis. Integer vitae semper nunc. Nulla et arcu sapien.
-					</p>
-				</div>
-			</div>
+  <!-- scripts para o countdown funcionar -->
+  <script src="scripts/counter.js"></script>
+</body>
 
-		</div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-		<!-- scripts para a janela pop-up funcionar -->
-		<script src="./scripts/exitpopup.js"></script>
-
-		<!-- scripts para o countdown funcionar -->
-		<script src="scripts/counter.js"></script>
-	</body>
 </html>
