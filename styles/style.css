@@ -168,7 +168,7 @@ img.icon-naosurta {
 
 /* -------------------------------- VERSÃO MOBILE ---------------------------------*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 7684px) {
     img.imgButton{
         width: 40px;
         height: 40px;
