@@ -64,3 +64,43 @@ body{
     color: white;
     cursor: pointer;
 }
+
+img.foto-convidado {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+
+.h2-convidados {
+    font-weight: bold;
+    color: #24c7b1;
+    text-align: center;
+}
+
+.h3-convidado, .h4-profissao {
+    font-weight: bold;
+    color: #1b1b1b;
+    text-align: center;
+}
+
+.h2-sobre {
+    font-weight: bold;
+    color: #1b1b1b;
+    text-align: start;
+}
+
+.p-sobre {
+    color: #1b1b1b;
+}
+
+#groupPhotos {
+    background-color: #79b5af;
+}
+
+.h2-fotos, .p-fotos {
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
