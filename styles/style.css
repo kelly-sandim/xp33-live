@@ -85,10 +85,14 @@ img.foto-convidado {
     text-align: center;
 }
 
+div.texto-sobre {
+    margin-left: 25px;
+}
+
 .h2-sobre {
     font-weight: bold;
     color: #1b1b1b;
-    text-align: start;
+    text-align: center;
 }
 
 .p-sobre {
@@ -116,24 +120,56 @@ background-color: #ffffff;
 
 .section3 {
 background-color: #add9d1;
-padding-top: 60px;
-padding-bottom: 60px;
+padding-top: 20px;
+padding-bottom: 20px;
 }
 
-.section3-image {
-    padding-top: 90px;
-    padding-bottom: 90px;
-    background-image: url('../assets/desktop/ELEMENTOS\ 1.png');
-    background-size: contain;
+.section3-image {    
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url('../assets/mobile/Sobre-ELEMENTOS\ 1.png');
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
+
 img.icon-naosurta {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 65%;
-    border-radius: 50%;
+    display: none;
+}
+
+@media (min-width: 768px) {
+    
+    div.texto-sobre {
+        margin-left: 0px;
+    }
+
+    .h2-sobre {
+        font-weight: bold;
+        color: #1b1b1b;
+        text-align: start;
+    }
+
+    .section3 {
+        background-color: #add9d1;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .section3-image {    
+        padding-top: 90px;
+        padding-bottom: 90px;
+        background-image: url('../assets/desktop/ELEMENTOS\ 1.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    img.icon-naosurta {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 65%;
+        border-radius: 50%;
+    }
 }
 
 .section4 {
