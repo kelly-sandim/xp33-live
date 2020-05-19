@@ -8,7 +8,9 @@
     <title>Bootstrap 4, from LayoutIt!</title>
 
     <meta name="description" content="Source code generated using layoutit.com">
-    <meta name="author" content="LayoutIt!">
+	<meta name="author" content="LayoutIt!">
+	
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -21,27 +23,15 @@
     <link href="styles/style.css" rel="stylesheet">
 	</head>
 
-	<body>
+	<body>  
 		<div class="container-fluid">
-			<div class="row">
-				<img src="./styles/coletivo_socialmedia_capa_linkedin.png" alt="">
-			</div>
 
+			<div class="row" id="capa">
+				<img src="./styles/coletivo_socialmedia_capa_linkedin.png" alt="capa site">
+			</div>
+			<br>
 			<div class="row">
-				<div class="col-md-6">
-					<div class="jumbotron">
-						<h2>
-							Hello, world!
-						</h2>
-						<p>
-							This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
-						</p>
-						<p>
-							<a class="btn btn-danger btn-large" href="#">Adquirir ingresso!</a>
-						</p>
-					</div>
-				</div>
-				<div class="col-md-6">
+				<div class="col">
 					<h3 class="text-center text-danger">
 						O evento começará em:
 					</h3>
@@ -50,15 +40,15 @@
 					</div>
 				</div>
 			</div>
-
+			<br>
 			<div class="row">
 				<div class="col-md-12">
-					<h3 class="text-primary">
+					<h2 class="text-primary">
 						Convidados
-					</h3>
+					</h2>
 				</div>
 			</div>
-
+			<br>
 			<div class="row">
 				<div class="col-md-4">
 					<div class="card">
@@ -109,9 +99,25 @@
 					</div>
 				</div>
 			</div>
-		</div>
+			</div>
+
+			<div id="popup" class="popup__wrapper">
+				<div class="popup__container">
+				  <button class="exit" onclick=exitPopUp()>X</button>
+				  <h1 class="popup__title">Thank you for visiting!</h1>
+				  	<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut dui purus. 
+					  In tellus elit, congue non orci nec, pharetra semper libero. Integer vitae lobortis sem. 
+					  Aliquam id ante neque. Integer et mauris quis elit elementum venenatis. 
+					  Sed vehicula nisl quis lobortis mollis. Integer vitae semper nunc. Nulla et arcu sapien. 
+					</p>
+				</div>
+			</div>
 
     	<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+
+
+		<!-- scripts para a janela pop-up funcionar -->
+		<script src="./scripts/exitpopup.js"></script>
 
 		<!-- scripts para o countdown funcionar -->
 		<script src="scripts/counter.js"></script>
