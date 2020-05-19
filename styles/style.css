@@ -167,6 +167,7 @@ img.icon-naosurta {
 
 /* -------------------------------- VERSÃO MOBILE ---------------------------------*/
 
+
 @media screen and (max-width: 768px) {
     img.imgButton{
         width: 40px;
@@ -213,6 +214,7 @@ img.icon-naosurta {
     padding: 6%;
     text-align: center;
     color: #24c7b1;
+
 }
 .exit{
     position: absolute;
