@@ -17,11 +17,11 @@ body{
 * {
     box-sizing: border-box;
 }
-  
+
 #popup {
     display: none;
 }
-  
+
 .popup__wrapper {
     background: rgba(0, 0, 0, .75);
     position: fixed;
@@ -31,7 +31,7 @@ body{
     right: 0;
     z-index: 10;
 }
-  
+
 .popup__container {
     background: #fff;
     border-radius: 5%;
@@ -44,7 +44,7 @@ body{
     text-align: center;
     position: relative;
 }
-  
+
 .popup__title {
     font-size: 26px;
     margin-bottom: 15px;
@@ -104,3 +104,23 @@ img.foto-convidado {
     text-align: center;
 }
 
+
+.section1 {
+ background-color: #24c7b1;
+}
+
+.section2 {
+background-color: #ffffff;
+}
+
+.section3 {
+background-color: #add9d1;
+}
+
+.section4 {
+background-color: #79b5af;
+}
+
+.section5 {
+background-color: #1d858c;
+}
