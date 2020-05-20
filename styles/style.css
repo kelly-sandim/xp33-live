@@ -19,6 +19,10 @@ img.foto-convidado {
     border-radius: 50%;
 }
 
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 .h2-convidados {
     font-weight: bold;
     color: #24c7b1;
@@ -93,6 +97,23 @@ div.texto-sobre {
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
     color: #fff;
 
+}
+
+.logo {
+  max-height: 100px;
+}
+
+.navbar-light .navbar-toggler {
+  background-color: #24c7b1;
+}
+
+@media screen and (max-width: 768px) {
+.navbar {
+  background-color: #fff;
+}
+.logo {
+  max-height: 70px;
+}
 }
 
 .section2 {
@@ -173,7 +194,7 @@ img.icon-naosurta {
         padding-left: 30x;
         padding-right: 30px;
     }
-    
+
 }
 
 /* ----------------------------------- JANELA POP UP ------------------------------------------- */
