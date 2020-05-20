@@ -85,11 +85,14 @@ div.texto-sobre {
 
 .navbar-light .navbar-nav .nav-link {
     font-size: 20px;
+    font-weight: 700;
     color: #fff;
+    -webkit-text-stroke: 1px #356E72;
 }
 
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
     color: #fff;
+
 }
 
 .section2 {
