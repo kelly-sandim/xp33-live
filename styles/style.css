@@ -258,8 +258,13 @@ img.icon-naosurta {
     }
 
     .btSocialMedia{
-        padding-left: 30x;
-        padding-right: 30px;
+        padding: 25px;
+    }
+
+    .section5 {
+        padding: 0%;
+        background-color: #356E72;
+        text-align: center;
     }
 }
 @media screen and (max-width: 1000px) {
