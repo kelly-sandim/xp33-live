@@ -12,6 +12,5 @@ function onMouseOut(event) {
   document.addEventListener("mouseout", onMouseOut);
 
 function exitPopUp(){
-
     document.getElementById("popup").style.display = "none";
 }
