@@ -117,8 +117,8 @@ img.icon-naosurta {
 }
 
 .btSocialMedia{
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 50x;
+    padding-right: 50px;
 }
 
 @media (min-width: 768px) {
@@ -165,6 +165,12 @@ img.icon-naosurta {
         width: 40px;
         height: 40px;
     }
+
+    .btSocialMedia{
+        padding-left: 30x;
+        padding-right: 30px;
+    }
+    
 }
 
 /* ----------------------------------- JANELA POP UP ------------------------------------------- */
