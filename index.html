@@ -6,7 +6,10 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167204273-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
     gtag('config', 'UA-167204273-1');
   </script>
@@ -34,14 +37,24 @@
 
 <!-- Facebook Pixel Code -->
 <script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version="2.0";
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,"script",
-  "https://connect.facebook.net/en_US/fbevents.js");
+  ! function(f, b, e, v, n, t, s) {
+    if (f.fbq) return;
+    n = f.fbq = function() {
+      n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+    };
+    if (!f._fbq) f._fbq = n;
+    n.push = n;
+    n.loaded = !0;
+    n.version = "2.0";
+    n.queue = [];
+    t = b.createElement(e);
+    t.async = !0;
+    t.src = v;
+    s = b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t, s)
+  }(window, document, "script",
+    "https://connect.facebook.net/en_US/fbevents.js");
   fbq("init", "581317959256551");
   fbq("track", "PageView");
 </script>
@@ -52,15 +65,15 @@
 <body>
   <!-- Primeira seção, navbar + banner + call to action -->
   <div class="section section1">
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#"><img src="images/logo-coletivo.png" alt="Coletivo Não Surta" style="max-height: 100px"></a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="images/logo-coletivo.png" alt="Coletivo Não Surta" class="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="nav navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" style="padding-right: 30px;" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
@@ -74,12 +87,13 @@
             </li>
           </ul>
         </div>
-      </nav>
-
+      </div>
+    </nav>
+    <div class="container">
       <div class="row">
         <div class="col">
-          <h1 class="section1-title"><b>Mente Sã<br>na Pandemia</b></h1>
-          <p class="section1-description"><b>Uma jornada dos Astros à Psicologia rumo à resiliência do Ser</b></p>
+          <h1 class="section1-title"><b>LIVE: Mente Sã<br>na Pandemia</b></h1>
+          <h3 class="section1-description"><b>Os astros e o momento atual <br> dia 21 de Maio às 20h</b></h3>
           <!-- Begin Mailchimp Signup Form -->
           <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
           <style type="text/css">
