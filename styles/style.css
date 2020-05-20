@@ -208,14 +208,14 @@ img.icon-naosurta {
     position: relative;
     width: 50%;
     right: -1.3%;
-    min-width: 400px;
+    min-width: 320px;
 }
 
 .image2 {
     position: relative;
     width: 50%;
     left: -1.3%;
-    min-width: 400px;
+    min-width: 320px;
 }
 
 @media (min-width: 768px) {
@@ -263,15 +263,30 @@ img.icon-naosurta {
         height: 40px;
     }
 
+    .image img{
+        width: 320px;
+        height: 124.3px;
+    }
+
     .btSocialMedia{
-        padding-left: 30x;
-        padding-right: 30px;
+        padding: 20px;
+    }
+
+    .section5 {
+        padding: 0%;
+        background-color: #356E72;
+        text-align: center;
     }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
     .container{
         justify-content: center;
         padding: 0%;
+    }
+
+    .image1 {
+        justify-content: center;
+        align-items: center;
     }
 
     .image2 {
@@ -289,6 +304,7 @@ img.icon-naosurta {
         padding-top: 24px;
         padding-bottom: 45px;
     }
+
 }
 
 /* ----------------------------------- JANELA POP UP ------------------------------------------- */
