@@ -66,6 +66,7 @@ div.texto-sobre {
 }
 
 .section1-title {
+  font-weight: bold;
     color: #fff;
     font-size: 3.2rem;
     padding: 100px 20px 0px 50px;
@@ -135,6 +136,11 @@ div.texto-sobre {
 
 .section1-cta {
     margin: 30px 50px 50px 50px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #24c7b1;
+    -webkit-text-stroke: 0px #356E72;
 }
 
 }
