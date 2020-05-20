@@ -46,7 +46,7 @@ div.texto-sobre {
 }
 
 #groupPhotos {
-    background-color: #79b5af;
+    background-color: #85A7A3;
 }
 
 .h2-fotos, .p-fotos {
@@ -100,7 +100,7 @@ div.texto-sobre {
 }
 
 .section3 {
-    background-color: #add9d1;
+    background-color: #BBF3F5;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -110,7 +110,17 @@ img.icon-naosurta {
 }
 
 .section4 {
-    background-color: #79b5af;
+    background-color: #85A7A3;
+}
+
+.section4 p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.section4 h2{
+    padding: 29px;
+    padding-top: 48px;
 }
 
 .section5 {
@@ -120,8 +130,40 @@ img.icon-naosurta {
 }
 
 .btSocialMedia{
-    padding-left: 50x;
+    padding-left: 50px;
     padding-right: 50px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 15px;
+}
+
+.i-top{
+    padding-top: 60px;
+}
+
+.i-bottom{
+    padding-bottom: 75px;
+}
+
+.image img{
+    width: 400px;
+    height: 160px;
+}
+
+.image1 {
+    position: relative;
+    width: 50%;
+    right: -1.3%;
+}
+
+.image2 {
+    position: relative;
+    width: 50%;
+    left: -1.3%;
 }
 
 @media (min-width: 768px) {
@@ -137,7 +179,7 @@ img.icon-naosurta {
     }
 
     .section3 {
-        background-color: #add9d1;
+        background-color: #BBF3F5;
         padding-top: 60px;
         padding-bottom: 60px;
     }
@@ -163,7 +205,7 @@ img.icon-naosurta {
 /* -------------------------------- VERSÃO MOBILE ---------------------------------*/
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     img.imgButton{
         width: 40px;
         height: 40px;
@@ -173,6 +215,8 @@ img.icon-naosurta {
         padding-left: 30x;
         padding-right: 30px;
     }
+
+
     
 }
 
