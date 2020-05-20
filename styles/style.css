@@ -114,6 +114,22 @@ div.texto-sobre {
 .logo {
   max-height: 70px;
 }
+
+.section1 {
+    background-image: none;
+}
+
+.section1-title {
+    color: #fff;
+    font-size: 3.2rem;
+    padding: 50px 20px 0px 50px;
+    -webkit-text-stroke: none;
+}
+
+.section1-cta {
+    margin: 30px 50px 50px 50px;
+}
+
 }
 
 .section2 {
