@@ -226,10 +226,6 @@ img.icon-naosurta {
 
 @media (min-width: 768px) {
 
-    div.texto-sobre {
-        margin-left: 0px;
-    }
-
     .h2-sobre {
         font-weight: bold;
         color: #1b1b1b;
@@ -262,8 +258,20 @@ img.icon-naosurta {
 
 /* -------------------------------- VERSÃO MOBILE ---------------------------------*/
 
+@media screen and (max-width: 768px) {
 
-@media screen and (max-width: 800px) {
+    div#countdown {
+        font-size: 35px;
+    }
+
+    .p-sobre {
+        text-align: center;
+    }
+
+    div.texto-sobre {
+        margin-left: 0px;
+    }
+
     img.imgButton{
         width: 40px;
         height: 40px;
@@ -283,8 +291,7 @@ img.icon-naosurta {
         background-color: #356E72;
         text-align: center;
     }
-}
-@media screen and (max-width: 768px) {
+
     .container{
         justify-content: center;
         padding: 0%;
