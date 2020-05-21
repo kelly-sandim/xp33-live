@@ -122,32 +122,32 @@ div.texto-sobre {
 }
 
 @media screen and (max-width: 768px) {
-.navbar {
-  background-color: #fff;
-}
-.logo {
-  max-height: 70px;
-}
+    .navbar {
+    background-color: #fff;
+    }
+    .logo {
+    max-height: 70px;
+    }
 
-.section1 {
-    background-image: none;
-}
+    .section1 {
+        background-image: none;
+    }
 
-.section1-title {
-    color: #fff;
-    font-size: 3.2rem;
-    padding: 50px 20px 0px 50px;
-    -webkit-text-stroke: none;
-}
+    .section1-title {
+        color: #fff;
+        font-size: 3.2rem;
+        padding: 50px 20px 0px 50px;
+        -webkit-text-stroke: none;
+    }
 
-.section1-cta {
-    margin: 30px 50px 50px 50px;
-}
+    .section1-cta {
+        margin: 30px 50px 50px 50px;
+    }
 
-.navbar-light .navbar-nav .nav-link {
-    color: #24c7b1;
-    -webkit-text-stroke: 0px #356E72;
-}
+    .navbar-light .navbar-nav .nav-link {
+        color: #24c7b1;
+        -webkit-text-stroke: 0px #356E72;
+    }
 
 }
 
@@ -225,6 +225,10 @@ img.icon-naosurta {
 }
 
 @media (min-width: 768px) {
+    
+    div.texto-sobre {
+        margin-left: 0px;
+    }
 
     .h2-sobre {
         font-weight: bold;
@@ -262,6 +266,10 @@ img.icon-naosurta {
 
     div#countdown {
         font-size: 35px;
+    }
+
+    .section3{
+        flex-wrap: nowrap;
     }
 
     .p-sobre {
