@@ -1,9 +1,9 @@
 // Set the date we're counting down to
-var countDownDate = new Date("May 21, 2020 20:00:00").getTime();
+var countDownDate = new Date("May 21, 2020 20:00:00-03:00").getTime();
 
 //um pequeno extra que resolvi inserir, que vai atualizar o countdown com um texto
 // "ESTE EVENTO ACABOU!" assim que o evento acabar (previsão)
-var eventEndDate = new Date("May 21, 2020 21:00:00").getTime();
+var eventEndDate = new Date("May 21, 2020 21:00:00-03:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
