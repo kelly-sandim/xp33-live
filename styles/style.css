@@ -344,6 +344,7 @@ img.icon-naosurta {
     width: 500px;
     text-align: center;
     position: relative;
+    top: 90px;
 }
 
 .popup__title {
