@@ -366,3 +366,27 @@ img.icon-naosurta {
     color: white;
     cursor: pointer;
 }
+
+/* ----------------------------------- ACESSIBILIDADE ------------------------------------------- */
+#mc_embed_signup input {
+    border-radius: 0;
+    color: black;
+    font-weight: bold;
+    background-color: yellow;
+    border: 1px solid #999;
+    -webkit-appearance: none;
+}
+
+#mc_embed_signup input:hover, #mc_embed_signup input:focus {
+    background-color: rgb(163, 163, 0);
+}
+
+#mc_embed_signup input.email {
+    background-color: white;
+}
+
+label.label-form {
+    color: white;
+    font-style: italic;
+    margin-left: 50px;
+}
