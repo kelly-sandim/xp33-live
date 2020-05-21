@@ -9,6 +9,9 @@ div#countdown {
 
 body{
     font-family: 'Montserrat', sans-serif;
+}
+
+div.hide-overflow {
     overflow-x: hidden;
 }
 
