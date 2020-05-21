@@ -1,4 +1,4 @@
-# COLETIVO '#NÃOSURTA'
+# COLETIVO #NÃOSURTA
 
 Landing page criada pelo Coletivo Não Surta, do Gama XP #33 para captação de visualizações da live prepara pro dia 20 de maio.
 
