@@ -377,6 +377,10 @@ img.icon-naosurta {
     -webkit-appearance: none;
 }
 
+#mc_embed_signup input:hover, #mc_embed_signup input:focus {
+    background-color: rgb(163, 163, 0);
+}
+
 #mc_embed_signup input.email {
     background-color: white;
 }
